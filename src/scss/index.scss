@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'variables';
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $light-color;
+    color: $dark-color;
+    font-size: $fs-body;
+    font-family: $font-stack;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.app_title{
+    font-size: $fs-h1;
+    font-weight: $fw-bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid $accent-color;
+}
+.app_footer{
+    font-size: $fs-body - 0.125rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.search_input{
+    width: 100%;
+    padding: .5rem;
+    font-size: $fs-body;
+    font-family: $font-stack;
+    border-radius: 15px;
+    border: 1px solid $accent-color;
+}
+
+.search_input:focus{
+    outline: none;
+}
+
+button{
+    padding: .5rem;
+    margin-bottom: .5rem;
+    font-size: $fs-body;
+    font-family: $font-stack;
+    background-color: lighten($accent-color,10%);
+    color: $light-color;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover,
+button:focus{
+    background-color: $accent-color;
+}
+
+//Single country display
+
+.country_info,
+.weather_info{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 5%;
+    align-content: flex-start;
+
+    img{
+        width: 100%;
+    }
+
+    &_detail{
+        padding: 1rem;
+        border: 1px solid $dark-color;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px $dark-color;
+    }
+
+    &_detail p{
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .results_display{
+        display: grid;
+        grid-template-columns: 40% 55%;
+        gap: 5%;
+        align-items: flex-start;
+    }
+    
+}

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F3F3F3;
+  color: #283747;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.app_title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #932432;
+}
+
+.app_footer {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.search_input {
+  width: 100%;
+  padding: .5rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  border-radius: 15px;
+  border: 1px solid #932432;
+}
+
+.search_input:focus {
+  outline: none;
+}
+
+button {
+  padding: .5rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  background-color: #bc2e40;
+  color: #F3F3F3;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover,
+button:focus {
+  background-color: #932432;
+}
+
+.country_info,
+.weather_info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 65%;
+      grid-template-columns: 30% 65%;
+  gap: 5%;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.country_info img,
+.weather_info img {
+  width: 100%;
+}
+
+.country_info_detail,
+.weather_info_detail {
+  padding: 1rem;
+  border: 1px solid #283747;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 1px #283747;
+          box-shadow: 1px 1px 1px #283747;
+}
+
+.country_info_detail p,
+.weather_info_detail p {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .results_display {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 55%;
+        grid-template-columns: 40% 55%;
+    gap: 5%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+/*# sourceMappingURL=index.css.map */
