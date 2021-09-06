@@ -1,13 +1,6 @@
 # Countries search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-You can fork the project directory to your local computer , you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can fork the project directory to your local computer , you can run: `npm start` to runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 In countries search app, I fetch data from 2 APIs: 
 * [Rest Countries API](https://restcountries.eu/rest/v2/all) - no API key required
