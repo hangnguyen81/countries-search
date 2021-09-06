@@ -11,3 +11,6 @@ Due to GitHub environment page, my app in GitHub page still run smoothly with da
 You can search as you type
 - If one country matches the query, the information of that country will show
 - If many countries match the query, 10 countries will be lised with a button 'Show detail', you can click the button to see detail info of the country
+
+A quick look of app
+![Demo](https://i.ibb.co/hWhPLXS/03.jpg)
