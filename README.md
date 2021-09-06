@@ -7,3 +7,7 @@ In countries search app, I fetch data from 2 APIs:
 * [WeatherStack](https://weatherstack.com) . This API needs key to fetch data. Therefore, you need to register as a member to get API key. To use their service, please read in their [document](https://weatherstack.com/documentation)
 
 Due to GitHub environment page, my app in GitHub page still run smoothly with data of countries but the data from webstack cannot loaded. However, with correct api_key of weatherstack, it is functional perfectly in localhost environment   
+
+You can search as you type
+- If one country matches the query, the information of that country will show
+- If many countries match the query, 10 countries will be lised with a button 'Show detail', you can click the button to see detail info of the country
